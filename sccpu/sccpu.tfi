@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+sccpu instance_name (
+    .clock(clock), 
+    .reset(reset)
+    );
+
+

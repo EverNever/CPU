@@ -1,0 +1,87 @@
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 sccpu.ngc sccpu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sccpu_map.ncd sccpu.ngd sccpu.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sccpu_map.ncd sccpu.ngd sccpu.pcf 
+vhdtdtfi -lib work C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.v -lang verilog -prj sccpu -o sccpu.spl -module sccpu -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 sccpu.spl C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.sym 
+vhdtdtfi -lang verilog -prj sccpu -o C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.tfi -lib work C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu//sccpu.v -module sccpu -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim sccpu.ngc sccpu_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim sccpu.ngd sccpu_translate.v 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 sccpu.ngc sccpu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sccpu_map.ncd sccpu.ngd sccpu.pcf 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 sccpu.ngc sccpu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sccpu_map.ncd sccpu.ngd sccpu.pcf 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim sccpu.ngc sccpu_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim sccpu.ngc sccpu_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim sccpu.ngc sccpu_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 sccpu.ngc sccpu.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sccpu_map.ncd sccpu.ngd sccpu.pcf 
+par -w -intstyle ise -ol high -mt off sccpu_map.ncd sccpu.ncd sccpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sccpu.twx sccpu.ncd -o sccpu.twr sccpu.pcf 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg484-3 sccpu.ngc sccpu.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sccpu_map.ncd sccpu.ngd sccpu.pcf 
+par -w -intstyle ise -ol high -mt off sccpu_map.ncd sccpu.ncd sccpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sccpu.twx sccpu.ncd -o sccpu.twr sccpu.pcf 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.xst" -ofn "C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/sccpu.syr" 
+xst -intstyle ise -ifn "H:/Git/CPU/sccpu/sccpu.xst" -ofn "H:/Git/CPU/sccpu/sccpu.syr" 

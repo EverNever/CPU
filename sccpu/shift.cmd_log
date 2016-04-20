@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj sccpu -o C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu/shift.tfi -lib work C:/Users/SinLa/Desktop/Start/Project/ISE/sccpu//shift.v -module shift -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

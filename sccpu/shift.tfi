@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+shift instance_name (
+    .d(d), 
+    .sa(sa), 
+    .right(right), 
+    .arith(arith), 
+    .result(result)
+    );
+
+

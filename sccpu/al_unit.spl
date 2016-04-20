@@ -1,0 +1,11 @@
+[Inputs]
+=alu_ra[31:0]=
+=alu_rb[31:0]=
+=cu_aluc[3:0]=
+[Outputs]
+alu_zero
+=alu_result[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel al_unit
+

@@ -1,0 +1,43 @@
+Running: H:\App\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o H:/Git/CPU/sccpu/sccpu_test_alu_zero_isim_beh.exe -prj H:/Git/CPU/sccpu/sccpu_test_alu_zero_beh.prj work.sccpu_test_alu_zero work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "H:/Git/CPU/sccpu/mux2x32.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/shift.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/sccu.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/regfile.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/mux4x32.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/mux2x5.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/IP_ROM.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/IP_RAM.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/dff32.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/cla32.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/al_unit.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/sccpu.v" into library work
+Analyzing Verilog file "H:/Git/CPU/sccpu/sccpu_test_alu_zero.v" into library work
+Analyzing Verilog file "H:/App/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161076 KB
+Fuse CPU Usage: 343 ms
+Compiling module dff32
+Compiling module cla32
+Compiling module IP_ROM
+Compiling module sccu
+Compiling module mux2x5
+Compiling module regfile
+Compiling module mux2x32
+Compiling module shift
+Compiling module al_unit
+Compiling module mux4x32
+Compiling module IP_RAM
+Compiling module sccpu
+Compiling module sccpu_test_alu_zero
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable H:/Git/CPU/sccpu/sccpu_test_alu_zero_isim_beh.exe
+Fuse Memory Usage: 166652 KB
+Fuse CPU Usage: 421 ms

@@ -1,0 +1,8 @@
+[Inputs]
+clock
+reset
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel sccpu
+
