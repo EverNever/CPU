@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    21:54:15 04/20/2016 
+// Create Date:    09:49:38 04/22/2016 
 // Design Name: 
-// Module Name:    EXE 
+// Module Name:    FDreg 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,19 +18,22 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module EXE(
-  input [3:0]ealuc,
-  input eshift, ealuimm,
+module FDreg(
+  input clock, reset,
+  input [31:0]finst,
   
-  input [31:0]eqa, eqb, eimm,
-  
-  output [31:0]result
+  output [31:0]dinst
     );
-	 
-	 mux2x32 alu_a(eqa, eimm, eshift, alu_ra);
-
-	 mux2x32 alu_b(eqb, eimm, ealuimm, alu_rb);
-
-	 al_unit alu(alu_ra, alu_rb, ealuc, result);
-
+  
+  reg [31:0]dinst;
+  
+  always @(negedge reset or posedge clock)
+    if (reset == 0)
+		begin
+		  dinst <= 0;
+		end
+	 else 
+		begin
+		  dinst <= finst;
+	   end
 endmodule

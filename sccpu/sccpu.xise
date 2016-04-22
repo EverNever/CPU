@@ -111,6 +111,26 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="95"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="95"/>
     </file>
+    <file xil_pn:name="MEM.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="96"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="96"/>
+    </file>
+    <file xil_pn:name="WB.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="97"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="97"/>
+    </file>
+    <file xil_pn:name="FDreg.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="98"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="98"/>
+    </file>
+    <file xil_pn:name="DEreg.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="99"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="99"/>
+    </file>
+    <file xil_pn:name="EMreg.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="101"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="101"/>
+    </file>
   </files>
 
   <properties>

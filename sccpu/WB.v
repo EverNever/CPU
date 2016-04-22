@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    21:54:15 04/20/2016 
+// Create Date:    09:40:11 04/22/2016 
 // Design Name: 
-// Module Name:    EXE 
+// Module Name:    WB 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,19 +18,13 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module EXE(
-  input [3:0]ealuc,
-  input eshift, ealuimm,
+module WB(
+  input [31:0]alu_result, ram_data,
+  input cu_m2reg,
   
-  input [31:0]eqa, eqb, eimm,
-  
-  output [31:0]result
+  output [31:0]data
     );
-	 
-	 mux2x32 alu_a(eqa, eimm, eshift, alu_ra);
 
-	 mux2x32 alu_b(eqb, eimm, ealuimm, alu_rb);
-
-	 al_unit alu(alu_ra, alu_rb, ealuc, result);
+  mux2x32 result(alu_result, ram_data, cu_m2reg, data);
 
 endmodule

@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    21:54:15 04/20/2016 
+// Create Date:    09:32:46 04/22/2016 
 // Design Name: 
-// Module Name:    EXE 
+// Module Name:    MEM 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,19 +18,13 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module EXE(
-  input [3:0]ealuc,
-  input eshift, ealuimm,
+module MEM(
+  input clock, mwem,
+  input [31:0]result, qb,
   
-  input [31:0]eqa, eqb, eimm,
-  
-  output [31:0]result
+  output [31:0]ram_data
     );
 	 
-	 mux2x32 alu_a(eqa, eimm, eshift, alu_ra);
-
-	 mux2x32 alu_b(eqb, eimm, ealuimm, alu_rb);
-
-	 al_unit alu(alu_ra, alu_rb, ealuc, result);
+  IP_RAM DataMem(qb, result, clock, mwmem, ram_data);
 
 endmodule
