@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module MEM(
-  input clock, mwem,
+  input clock, mwmem,
   input [31:0]result, qb,
   
   output [31:0]ram_data

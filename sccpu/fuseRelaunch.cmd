@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/Git/CPU/sccpu/sccpu_test_alu_zero_isim_beh.exe" -prj "H:/Git/CPU/sccpu/sccpu_test_alu_zero_beh.prj" "work.sccpu_test_alu_zero" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/Git/CPU/sccpu/sccpu_test_pipe_isim_beh.exe" -prj "H:/Git/CPU/sccpu/sccpu_test_pipe_beh.prj" "work.sccpu_test_pipe" "work.glbl" 

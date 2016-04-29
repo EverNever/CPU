@@ -26,6 +26,6 @@ module IF(
 
 	 cla32 pcplus4(address, 32'h00000004, 1'b0, addplus4);
 	 
-	 IP_ROM InstMem(address, inst);
+	 IP_ROM InstMem(address, inst);A
 
 endmodule

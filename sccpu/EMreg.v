@@ -19,16 +19,24 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module EMreg(
-  input clock, reset,
-  input ewreg, em2reg, ewmem,
-  input [4:0]erd,
-  input [31:0]er, eqb,
-  
-  output mwreg, mm2reg, mwmem,
-  output [4:0]mrd,
-  output [31:0]mr, mqb
+  clock, reset,
+  ewreg, em2reg, ewmem,
+  erd,
+  er, eqb,
+  mwreg, mm2reg, mwmem,
+  mrd,
+  mr, mqb
     );
 
+  input clock, reset;
+  input ewreg, em2reg, ewmem;
+  input [4:0]erd;
+  input [31:0]er, eqb;
+  
+  output mwreg, mm2reg, mwmem;
+  output [4:0]mrd;
+  output [31:0]mr, mqb;
+  
   reg mwreg, mm2reg, mwmem;
   reg [4:0]mrd;
   reg [31:0]mr, mqb;

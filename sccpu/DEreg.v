@@ -19,18 +19,30 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module DEreg(
-  input clock, reset,
-  input dwreg, dm2reg, dwmem, dshift, daluimm,
-  input [4:0]drd, daluc,
-  input [31:0]dqa, dqb, dimm,
+  clock, reset,
+  dwreg, dm2reg, dwmem, dshift, daluimm,
+  drd, daluc,
+  dqa, dqb, dimm,
   
-  output ewreg, em2reg, ewmem, eshift, ealuimm,
-  output [4:0]erd, ealuc,
-  output [31:0]eqa, eqb, eimm
+  ewreg, em2reg, ewmem, eshift, ealuimm,
+  erd, ealuc,
+  eqa, eqb, eimm
     );
 
+  input clock, reset;
+  input dwreg, dm2reg, dwmem, dshift, daluimm;
+  input [4:0]drd;
+  input [3:0]daluc;
+  input [31:0]dqa, dqb, dimm;
+  
+  output ewreg, em2reg, ewmem, eshift, ealuimm;
+  output [4:0]erd;
+  output [3:0]ealuc;
+  output [31:0]eqa, eqb, eimm;
+  
   reg ewreg, em2reg, ewmem, eshift, ealuimm;
-  reg [4:0]erd, ealuc;
+  reg [4:0]erd;
+  reg [3:0]ealuc;
   reg [31:0]eqa, eqb, eimm;
   
   always @(negedge reset or posedge clock)

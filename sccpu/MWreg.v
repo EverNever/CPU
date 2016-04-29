@@ -18,17 +18,25 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module MWreg(
-  input clock, reset,
-  input mwreg, mm2reg, mwmem,
-  input [4:0]mrd,
-  input [31:0]mr, mdata,
+module MWreg(clock, reset,
+  mwreg, mm2reg, mwmem,
+  mrd,
+  mr, mdata,
   
-  output wwreg, wm2reg,
-  output [4:0]wrd,
-  output [31:0]wr, wdata
+  wwreg, wm2reg,
+  wrd,
+  wr, wdata
     );
-	 
+  
+  input clock, reset;
+  input mwreg, mm2reg, mwmem;
+  input [4:0]mrd;
+  input [31:0]mr, mdata;
+  
+  output wwreg, wm2reg;
+  output [4:0]wrd;
+  output [31:0]wr, wdata;
+  
   reg wwreg, wm2reg;
   reg [4:0]wrd;
   reg [31:0]wr, wdata;

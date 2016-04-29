@@ -27,6 +27,8 @@ module EXE(
   output [31:0]result
     );
 	 
+	 wire [31:0]alu_ra, alu_rb;
+	 
 	 mux2x32 alu_a(eqa, eimm, eshift, alu_ra);
 
 	 mux2x32 alu_b(eqb, eimm, ealuimm, alu_rb);

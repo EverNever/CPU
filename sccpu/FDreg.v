@@ -19,11 +19,15 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module FDreg(
-  input clock, reset,
-  input [31:0]finst,
-  
-  output [31:0]dinst
+  clock, reset,
+  finst,
+  dinst
     );
+  
+  input clock, reset;
+  input [31:0]finst;
+  
+  output [31:0]dinst;
   
   reg [31:0]dinst;
   
